@@ -1,0 +1,4 @@
+- name: tarea posinstalacion 3 # Iniciar servicio nginx
+  service:
+    name: nginx
+    state: started

@@ -1,0 +1,7 @@
+---
+# handlers file for roles_nginx
+- name: tarea posinstalacion 4 # Iniciar servicio nginx
+  service:
+    name: nginx
+    state: restarted
+  listen: nginx_reconfigurado

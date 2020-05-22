@@ -1,0 +1,5 @@
+---
+# defaults file for roles_nginx
+    nginx_port: 80
+    nginx_server: localhost
+    nginx_web_path: /www

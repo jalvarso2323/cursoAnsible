@@ -1,0 +1,10 @@
+---
+# tasks file for roles_nginx
+- import_tasks: instalaciones.yml
+- import_tasks: configuraciones.yml
+- import_tasks: servicios.yml
+- import_tasks: comprobaciones.yml
+
+    
+
+    
